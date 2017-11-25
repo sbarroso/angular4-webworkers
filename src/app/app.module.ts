@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
-import { FactorialService } from "app/factorial.service";
+import { FactorialComponent } from './factorial/factorial.component';
+import { FactorialService } from "./factorial.service";
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FactorialComponent
   ],
   imports: [
     WorkerAppModule,
