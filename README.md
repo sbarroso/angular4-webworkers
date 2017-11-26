@@ -1,6 +1,7 @@
 # MathUtils
 
-This Angular project presents an interface to run several mathematical operations
+This Angular4 project has been created as an example to work with webworkers. It has been based in the following guide 
+http://blog.enriqueoriol.com/2017/04/angular-webworkers.html
 
 ## Development server
 

@@ -4,18 +4,20 @@ import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { FactorialComponent } from './factorial/factorial.component';
-import { FactorialService } from "./factorial.service";
+import { MathService } from "./math.service";
+import { PrimesComponent } from './primes/primes.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    FactorialComponent
+    FactorialComponent,
+    PrimesComponent
   ],
   imports: [
     WorkerAppModule,
     FormsModule
   ],
-  providers: [FactorialService],
+  providers: [MathService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
