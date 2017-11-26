@@ -1,0 +1,10 @@
+<div class="header">
+	<h1>Primes calculator</h1>
+	<label>Compute the first prime number starting from {{firstPrime}}:</label>
+  <input [(ngModel)]="firstPrime" type="number" placeholder="Set the start number">
+	<button (click)="computePrimeNumbers()">Compute prime numbers</button>
+</div>
+
+<div class="items" *ngFor="let item of items">
+	{{item}}
+</div>
